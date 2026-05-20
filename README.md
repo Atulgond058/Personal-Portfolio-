@@ -67,8 +67,8 @@ Personal-Portfolio-/
 
 If you liked this project or want to collaborate:
 
-- 📧 Email: [your@email.com](mailto:your@email.com)
-- 💼 LinkedIn:
+- 📧 Email: [atulgond058@gmail.com]
+- 💼 LinkedIn:(https://www.linkedin.com/in/atul-g-9903aa410)
 - 🌐 Portfolio: [atulgond058.github.io/Personal-Portfolio-](https://atulgond058.github.io/Personal-Portfolio-)
 
 ---

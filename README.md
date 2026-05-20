@@ -1,4 +1,4 @@
-# 🌐 Atul Gond — Personal Portfolio
+# 🌐 Personal Portfolio
 
 A clean, responsive personal portfolio website showcasing my skills, projects, and experience as a Full Stack Developer (in training).
 
@@ -8,7 +8,6 @@ A clean, responsive personal portfolio website showcasing my skills, projects, a
 
 ## 📸 Preview
 
-> *(Add a screenshot of your portfolio here — drag and drop an image into GitHub when editing this file)*
 
 ---
 
@@ -69,7 +68,7 @@ Personal-Portfolio-/
 If you liked this project or want to collaborate:
 
 - 📧 Email: [your@email.com](mailto:your@email.com)
-- 💼 LinkedIn: [linkedin.com/in/YOUR-LINKEDIN](https://linkedin.com/in/YOUR-LINKEDIN)
+- 💼 LinkedIn:
 - 🌐 Portfolio: [atulgond058.github.io/Personal-Portfolio-](https://atulgond058.github.io/Personal-Portfolio-)
 
 ---

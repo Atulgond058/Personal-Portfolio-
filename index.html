@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Atul Portfolio</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial;
+    }
+
+    body{
+      background:#111;
+      color:white;
+    }
+
+    nav{
+      background:#222;
+      padding:15px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav ul{
+      display:flex;
+      list-style:none;
+      gap:15px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+    }
+
+    .hero{
+      text-align:center;
+      padding:80px 20px;
+    }
+
+    .hero img{
+      width:140px;
+      height:140px;
+      border-radius:50%;
+      object-fit:cover;
+      border:3px solid #00adb5;
+    }
+
+    .hero h1{
+      margin-top:15px;
+      font-size:35px;
+    }
+
+    .hero p{
+      margin:10px 0;
+      color:#ccc;
+    }
+
+    button{
+      padding:10px 20px;
+      border:none;
+      background:#00adb5;
+      color:white;
+      border-radius:5px;
+      cursor:pointer;
+    }
+
+    section{
+      padding:40px 20px;
+    }
+
+    h2{
+      margin-bottom:15px;
+      color:#00adb5;
+    }
+
+    .skills div,
+    .project{
+      background:#222;
+      padding:15px;
+      margin-top:10px;
+      border-radius:8px;
+    }
+
+    footer{
+      text-align:center;
+      background:#222;
+      padding:15px;
+      margin-top:20px;
+    }
+
+    @media(max-width:600px){
+
+      nav{
+        flex-direction:column;
+        gap:10px;
+      }
+
+      nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+      }
+
+      .hero h1{
+        font-size:28px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav>
+
+    <h2>Portfolio</h2>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Project</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- Hero -->
+
+  <div class="hero">
+
+    <img src="Atul.jpg" alt="profile">
+
+    <h1> Hi, I'm Atul</h1>
+
+    <p id="text">Frontend Developer</p>
+
+    <button onclick="changeText()">
+      About me
+    </button>
+
+  </div>
+
+  <!-- Skills -->
+
+  <section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+
+    </div>
+
+  </section>
+
+  <!-- Project -->
+
+  <section id="project">
+
+    <h2>Project</h2>
+
+    <div class="project">
+
+      <h3>Weather App</h3>
+
+      <p>
+        Weather app using HTML CSS and JavaScript.
+      </p>
+    </div>
+    
+      <div class="project">
+      <h3> Netflix Clone(Login page)</h3>
+      <p>Netflix login page using HTML CSS and JavaScript.</p>
+    </div>
+    
+     <div class="project">
+      <h3> Personal Portfolio</h3>
+      <p>Portfolio using HTML CSS and JavaScript.</p>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p>© 2026 Atul Gond</p>
+
+  </footer>
+
+  <!-- JavaScript -->
+
+  <script>
+
+    function changeText(){
+
+      document.getElementById("text").innerHTML =
+      " I'm BCA 4th semester student learning to build websites using HTML, CSS and JavaScript. I'm passionate about creating clean, user-friendly web pages and eager to find an internship where I can grow and contribute.";
+
+    }
+
+  </script>
+
+</body>
+</html>

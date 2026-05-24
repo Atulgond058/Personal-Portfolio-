@@ -3,22 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atul Portfolio</title>
+  <title>Personal Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <style>
-
     *{
       margin:0;
       padding:0;
       box-sizing:border-box;
-      font-family:times new roman;
-    }
+      font-family:times new roman; }
 
     body{
       background:#111;
-      color:white;
-    }
+      color:white;}
 
     nav{
       background:rgba(34,34,34,0.85);
@@ -30,42 +27,35 @@
       position:sticky;
       top:0;
       left:0;
-      z-index:100;
-    }
+      z-index:100;}
 
     nav ul{
       display:flex;
       list-style:none;
-      gap:15px;
-    }
+      gap:15px; }
 
     nav a{
       color:white;
-      text-decoration:none;
-    }
+      text-decoration:none;}
 
     .hero{
       text-align:center;
-      padding:80px 20px;
-    }
+      padding:80px 20px;}
 
     .hero img{
       width:140px;
       height:140px;
       border-radius:50%;
       object-fit:cover;
-      border:3px solid #00adb5;
-    }
+      border:3px solid #00adb5; }
 
     .hero h1{
       margin-top:15px;
-      font-size:35px;
-    }
+      font-size:35px;}
 
     .hero p{
       margin:10px 0;
-      color:#ccc;
-    }
+      color:#ccc; }
 
     button{
       padding:10px 20px;
@@ -73,48 +63,41 @@
       background:#00adb5;
       color:white;
       border-radius:20px;
-      cursor:pointer;
-    }
+      cursor:pointer;}
 
     .btn-outline{
       background:transparent;
       border:2px solid #00adb5;
       color:#00adb5;
-      margin-left:10px;
-    }
+      margin-left:10px;}
 
     section{
       padding:40px 20px;
-      scroll-margin-top:100px;
-    }
+      scroll-margin-top:100px;}
 
     h2{
       margin-bottom:15px;
-      color:#00adb5;
-    }
+      color:#00adb5;}
 
     .skills div,
     .project{
       background:#222;
       padding:15px;
       margin-top:10px;
-      border-radius:8px;
-    }
+      border-radius:8px;}
 
     /* Education timeline */
     .timeline{
       border-left:2px solid #00adb5;
       padding-left:20px;
-      margin-top:10px;
-    }
+      margin-top:10px;}
 
     .timeline-item{
       background:#222;
       padding:15px;
       margin-bottom:15px;
       border-radius:8px;
-      position:relative;
-    }
+      position:relative;}
 
     .timeline-item::before{
       content:'';
@@ -124,24 +107,21 @@
       width:10px;
       height:10px;
       border-radius:50%;
-      background:#00adb5;
-    }
+      background:#00adb5;}
 
     .timeline-item .year{
       color:#00adb5;
       font-size:13px;
-      margin-bottom:5px;
-    }
+      margin-bottom:5px; }
 
     .timeline-item h3{
       font-size:15px;
       margin-bottom:4px;
-    }
+}
 
     .timeline-item p{
       color:#ccc;
-      font-size:14px;
-    }
+      font-size:14px; }
 
     /* Contact */
     .contact-links{
@@ -149,7 +129,7 @@
       flex-direction:column;
       gap:10px;
       margin-bottom:20px;
-    }
+}
 
     .contact-link{
       background:#222;
@@ -160,13 +140,13 @@
       display:flex;
       align-items:center;
       gap:10px;
-    }
+}
 
     .contact-form{
       display:flex;
       flex-direction:column;
       gap:10px;
-    }
+}
 
     .contact-form input,
     .contact-form textarea{
@@ -178,28 +158,23 @@
       font-family:'Sora', Arial, sans-serif;
       font-size:14px;
       outline:none;
-      resize:none;
-    }
+      resize:none;}
 
     .contact-form input:focus,
     .contact-form textarea:focus{
-      border-color:#00adb5;
-    }
+      border-color:#00adb5;}
 
     .contact-form input::placeholder,
     .contact-form textarea::placeholder{
-      color:#555;
-    }
+      color:#555;}
 
     footer{
       text-align:center;
       background:#222;
       padding:15px;
-      margin-top:20px;
-    }
+      margin-top:20px;}
 
     @media(max-width:600px){
-
       nav{
         flex-direction:column;
         gap:10px;
@@ -213,10 +188,8 @@
       .hero h1{
         font-size:28px;
       }
-
-    }
-
-  </style>
+     }
+ </style>
 </head>
 
 <body>
@@ -245,84 +218,85 @@
   <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
-    <div class="skills">
+      <div class="skills">
       <div>HTML</div>
       <div>CSS</div>
       <div>JavaScript</div>
     </div>
   </section>
+  
+     <!-- Project -->
+     <section id="project">
 
-  <!-- Project -->
-  <section id="project">
-    <h2>Project</h2>
-    <div class="project">
+      <h2>Project</h2>
+      <div class="project">
       <h3>Weather App</h3>
       <p>Weather app using HTML CSS and JavaScript.</p>
-    </div>
-    <div class="project">
-      <h3>Netflix Clone(Login page)</h3>
-      <p>Netflix login page using HTML CSS and JavaScript.</p>
-    </div>
-    <div class="project">
+      </div>
+
+      <div class="project">
+      <h3>Login & Signup Page.</h3>
+      <p>Simple login & signup page using HTML CSS and JavaScript.</p>
+      </div>
+
+      <div class="project">
       <h3>Personal Portfolio</h3>
       <p>Portfolio using HTML CSS and JavaScript.</p>
-    </div>
+      </div>
   </section>
 
   <!-- Education -->
   <section id="education">
-    <h2>Education</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="year">2024 – Present</div>
-        <h3>Bachelor of Computer Applications (BCA)</h3>
-        <p>4th Semester.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="year">2022 – 2024</div>
-        <h3>Higher Secondary (12th)</h3>
-        <p>RSRN Convent School.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="year">2020 – 2021</div>
-        <h3>Secondary School (10th)</h3>
-        <p>BKD Inter College.</p>
-      </div>
-    </div>
-  </section>
+  <h2>Education</h2>
+   <div class="timeline">
+  
+   <div class="timeline-item">
+   <div class="year">2024 – Present</div>
+   <h3>Bachelor of Computer Applications (BCA)</h3>
+   <p>4th Semester.</p>
+   </div>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact-links">
-      <a class="contact-link" href="mailto:atul@example.com">📧 atul@example.com</a>
-      <a class="contact-link" href="https://github.com/" target="_blank">🐙 github.com/atul</a>
-      <a class="contact-link" href="https://linkedin.com/" target="_blank">💼 linkedin.com/in/atul</a>
+    <div class="timeline-item">
+    <div class="year">2022 – 2024</div>
+    <h3>Higher Secondary (12th)</h3>
+    <p>RSRN Convent School.</p>
     </div>
-    <div class="contact-form">
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email">
-      <textarea rows="5" placeholder="Your Message..."></textarea>
-      <button onclick="sendMessage()">Send Message</button>
+
+    <div class="timeline-item">
+    <div class="year">2020 – 2021</div>
+    <h3>Secondary School (10th)</h3>
+    <p>BKD Inter College.</p>
+    </div>
+ </div>
+ </section>
+
+<!-- Contact -->
+<section id="contact">
+<h2>Contact</h2>
+<div class="contact-links">
+<a class="contact-link" href="mailto:atul@example.com">📧 atul@example.com</a>
+<a class="contact-link" href="https://github.com/" target="_blank">🐙 github.com/atul</a>
+<a class="contact-link" href="https://linkedin.com/" target="_blank">💼 linkedin.com/in/atul</a>
+ </div>
+ <div class="contact-form">
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="5" placeholder="Your Message..."></textarea>
+<button onclick="sendMessage()">Send Message</button>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <p>© 2026 Atul Gond</p>
-  </footer>
+  <footer> <p>© 2026 Atul Gond</p> </footer>
 
   <script>
-
-    function changeText(){
-      document.getElementById("text").innerHTML =
+ function changeText(){
+ document.getElementById("text").innerHTML =
       " I'm BCA 4th semester student learning to build websites using HTML, CSS and JavaScript. I'm passionate about creating clean, user-friendly web pages and eager to find an internship where I can grow and contribute.";
     }
-
-    function sendMessage(){
+ function sendMessage(){
       alert("Message sent! I'll get back to you soon.");
-    }
-
+}
   </script>
 
 </body>

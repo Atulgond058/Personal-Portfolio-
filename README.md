@@ -31,25 +31,6 @@ A clean, responsive personal portfolio website showcasing my skills, projects, a
 
 ---
 
-## 🚀 Getting Started
-
-To run this project locally:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/Atulgond058/Personal-Portfolio-.git
-
-# 2. Open the folder
-cd Personal-Portfolio-
-
-# 3. Open index.html in your browser
-open index.html
-```
-
-No installations or dependencies required — it's plain HTML/CSS/JS!
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -68,14 +49,7 @@ Personal-Portfolio-/
 If you liked this project or want to collaborate:
 
 - 📧 Email: [atulgond058@gmail.com]
-- 💼 LinkedIn:(https://www.linkedin.com/in/atul-g-9903aa410)
-- 🌐 Portfolio: [atulgond058.github.io/Personal-Portfolio-](https://atulgond058.github.io/Personal-Portfolio-)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- 🌐 Portfolio: [atulgond058.github.io/Personal-Portfolio-](https://atulgond058.github.io/Personal-Portfolio]
 
 ---
 

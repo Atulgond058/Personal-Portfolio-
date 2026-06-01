@@ -1,6 +1,8 @@
 # 🌐 Personal Portfolio
 
-A clean, responsive personal portfolio website showcasing my skills, projects, and experience as a Full Stack Developer (in training).
+A clean, responsive personal portfolio website showcasing my skills, projects,
+education.... 
+
 
 🔗 **Live Site:** [atulgond058.github.io/Personal-Portfolio-](https://atulgond058.github.io/Personal-Portfolio-)
 
